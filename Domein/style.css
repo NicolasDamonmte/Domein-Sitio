@@ -1,0 +1,1313 @@
+/* Normalize */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #333333;
+}
+header {
+    background-color: #a6a6a6;
+    position: sticky;
+    top: 0%;
+    height: 70px;
+    display: flex;
+}
+#logo {
+    width: 40px;
+    height: 42px;
+    margin: 20px;
+    margin: 0;
+}
+.columna {
+    display: flex;
+    justify-content: left;
+    gap: 5px;
+    font-size: 20px;
+    font-family: "Montserrat";
+    padding-top: 5%;
+    padding-left: 3%;
+}
+nav ul {
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    width: 30%;
+    margin-left: 200%;
+}
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Montserrat";
+    color: black;
+    transition: all 0.2s ease;
+}
+nav a:hover {
+    color: rgb(231, 217, 22);
+}
+.Portada {
+    background-image: url(./Fotos/foto1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+    text-align: center;
+    color: rgb(231, 217, 22);
+    font-size: 30px;
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 90px;
+}
+.Portada h1 {
+    font-family: "Montserrat";
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 7px 20px 10px rgb(24, 24, 24);
+    font-size: 85px;
+}
+.Portada div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.Portada h3 {
+    padding: 10px 20px;
+    background-color: #474747;
+    width: fit-content;
+    border-radius: 6px;
+    text-shadow: 3px 3px 6px #000;
+    box-shadow: 3px 3px 6px #000;
+}
+.subtitulo1 {
+    width: fit-content;
+}
+#Panel-1 {
+    background-color: #474747;
+    height: 1305px;
+}
+.P-1 {
+    display: flex;
+}
+.Parrafos {
+    flex: 50%;
+}
+.Parrafos h3 {
+    font-size: 55px;
+    color: rgb(245, 224, 37);
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-shadow: 3px 3px 6px #000;
+}
+.Parrafos p {
+    text-align: justify;
+    font-size: 26px;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: "Montserrat";
+    color: #efefef;
+}
+.FotosS1 {
+    width: 100%;
+    height: 650px;
+    justify-content: end;
+}
+.FotosS2 {
+    width: 25%;
+    height: 650px;
+    justify-content: left;
+}
+.Entrena {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+#EntrenaTitulo {
+    margin-bottom: 50px;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: larger;
+    color: rgb(231, 217, 22);
+    font-size: 30px;
+    font-family: "Montserrat";
+    box-shadow: 3px 3px 6px #000;
+}
+#EntrenaTitulo h2 {
+    padding: 15px 20px;
+    border-radius: 6px;
+    background-color: #4f4e4d;
+    text-shadow: 4px 4px 6px #000;
+}
+#EntrenaDiseño {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    gap: 145px;
+}
+#EntrenaTexto {
+    display: flex;
+    font-family: "Montserrat";
+    color: #efefef;
+}
+.EntrenaParrafos {
+    text-align: left;
+    margin-left: 230px;
+    margin-right: 150px;
+    text-align: justify;
+}
+.Box {
+    background-color: #a3a3a3;
+    padding: 2px 5px;
+    font-size: 2px;
+    width: fit-content;
+    text-align: center;
+    border-radius: 6px;
+    color: #121212;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    height: 20px;
+    width: 30;
+}
+.Box:hover {
+    background-color: #121212;
+    color: rgb(163, 163, 163);
+    box-shadow: 3px 3px 6px #000;
+}
+.QueBuscamos {
+    padding: 20px;
+    width: 75%;
+    height: 430px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: rgb(138, 138, 138);
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px #000;
+    margin-top: 4%;
+}
+.TextoQuebuscamos {
+    text-align: left;
+    margin-left: 3%;
+    margin-top: 3%;
+    text-align: justify;
+    display: block;
+    flex: 60%;
+}
+.TextoQuebuscamos h2 {
+    font-size: 35px;
+    color: #ffd015;
+    text-shadow: 3px 3px 6px #000;
+}
+.TextoQuebuscamos p {
+    padding-top: 4%;
+    word-spacing: 0.5rem;
+    font-size: 20px;
+}
+.QueBuscamosFotos {
+    flex: 40%;
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.QueBuscamosFotos img {
+    box-shadow: 3px 3px 6px #000;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+.card {
+    width: 500px;
+}
+.card img {
+    width: 100%;
+    box-shadow: 7px 7px 7px #000;
+    margin-bottom: 5%;
+    width: 440px;
+    height: 440px;
+}
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #fff;
+    font-family: "Montserrat";
+}
+.c-c-h3-1 {
+    letter-spacing: 1.5px;
+    color: #f4cc25;
+    font-size: 30px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: rgba(000, 000, 000, 0.1);
+    padding-left: 3%;
+    width: 72%;
+    border-radius: 6px;
+    text-shadow: 2px 2px 6px #000000;
+}
+.c-c-h3-2 {
+    letter-spacing: 1.5px;
+    color: #f4cc25;
+    font-size: 30px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: rgba(000, 000, 000, 0.1);
+    padding-left: 3%;
+    width: 63%;
+    border-radius: 6px;
+    text-shadow: 2px 2px 6px #000000;
+}
+.card p {
+    width: 90%;
+    font-size: 14px;
+    text-align: justify;
+}
+.card a {
+    font-size: 15px;
+    margin-top: 3%;
+}
+.contact {
+    margin-top: 150px;
+    margin-bottom: 120px;
+    margin-inline: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #1e1e1e;
+    padding: 30px 50px;
+    border-radius: 10px;
+    display: flex;
+}
+.Contact-Title {
+    font-size: 30px;
+    font-family: "Poppins";
+    color: #f4cc25;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact-content {
+    margin-top: 5%;
+    display: flex;
+    margin-left: 5%;
+    gap: 25%;
+}
+.Contact-Info-Emoji {
+    display: flex;
+    margin-top: 5%;
+}
+.Contact-Info-Emoji img {
+    width: 50px;
+    height: 45px;
+}
+.Contact-Info-Texto {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Montserrat";
+}
+.SocialMedia {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20%;
+}
+.SocialMedia h3 {
+    font-size: 45px;
+    color: #fff;
+    font-family: "Montserrat";
+}
+.SocialMedia-Emoji {
+    display: flex;
+    margin-top: 10%;
+}
+.SocialMedia-Emoji img {
+    width: 45px;
+}
+.SocialMedia-Emoji p {
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 30px;
+    padding-left: 10%;
+}
+.form {
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+    background-color: #333333;
+    border-radius: 10px;
+    box-shadow: 0 0 6px #000;
+}
+.contactTitle h2 {
+    font-size: 50px;
+}
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 5%;
+}
+.Casilleros {
+    border-radius: 6px;
+    padding: 1% 1%;
+}
+
+.Productos {
+    display: flex;
+    flex: 50%;
+}
+.productos-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.Productos img {
+    width: 100%;
+    height: 700px;
+}
+.Productos-Titulos {
+    width: 65%;
+    background-color: #474747;
+    background-image: url(./Fotos/Iconos/Recurso\ 25.png);
+    background-repeat: repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.Productos-Titulos h1 {
+    font-family: "Montserrat";
+    font-size: 70px;
+    width: fit-content;
+    font-style: italic;
+    color: #f4cc25;
+    text-align: center;
+    text-shadow: 4px 4px 7px #000;
+    background-color: #333333;
+    margin-top: 5%;
+    padding: 10px 35px;
+    border-radius: 6px;
+    margin-inline: auto;
+}
+.Productos-Titulos h3 {
+    padding: 10px 20px;
+    background-color: #333333;
+    width: fit-content;
+    border-radius: 6px;
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+.prod {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.Productos-Venta {
+    display: flex;
+}
+.Foto-Magnesio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55%;
+    height: 550px;
+    background-color: #474747;
+    margin: 8%;
+    box-shadow: 0px 0px 15px #000000;
+}
+.Foto-Magnesio img {
+    object-fit: contain;
+}
+.Productos-Venta-Descripción {
+    margin-top: 7%;
+    margin-right: 10%;
+}
+.Productos-Venta-Descripción h4 {
+    font-size: 70px;
+    color: #f4cc25;
+    text-shadow: 4px 4px 8px #000;
+}
+.Productos-Venta-Descripción p {
+    color: #efefef;
+    font-size: 25px;
+    padding-top: 3%;
+    padding-right: 5%;
+}
+.Características {
+    padding-top: 7%;
+}
+.Características h6 {
+    font-size: 40px;
+    color: #efefef;
+}
+.Características ul {
+    display: block;
+    color: #efefef;
+    font-size: 30px;
+    padding-left: 3%;
+    padding-top: 5%;
+}
+.Importante {
+    font-size: 50px;
+    color: #e40f0f;
+    padding-top: 7%;
+}
+
+.Descripción {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+.Boxes {
+    background-color: #191919;
+    height: 500px;
+    margin: 20px;
+    width: 33%;
+}
+.Emojis {
+    margin-left: 5%;
+    margin-top: 5%;
+    padding: 30px;
+    background-color: #4f4e4d;
+    border-radius: 50%;
+}
+.Boxes h3 {
+    padding-left: 8%;
+    margin-top: 5%;
+    font-size: 45px;
+    color: #f4cc25;
+    padding-top: 3%;
+}
+.Boxes p {
+    padding-left: 8%;
+    text-align: left;
+    width: 80%;
+    padding-top: 5%;
+    font-size: 30px;
+    color: #fff;
+}
+.Clases-Data {
+    padding: 20px;
+    width: 75%;
+    height: 430px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #202020;
+    display: flex;
+    box-shadow: 3px 3px 6px #000;
+    margin-top: 4%;
+}
+.Clases-Data-Texto {
+    text-align: left;
+    margin-left: 3%;
+    margin-top: 3%;
+    text-align: justify;
+    display: block;
+    flex: 60%;
+}
+.Clases-Data-Texto h2 {
+    font-size: 35px;
+    color: #ffd015;
+    text-shadow: 3px 3px 6px #000;
+}
+.Clases-Data-Texto p {
+    padding-top: 4%;
+    word-spacing: 0.5rem;
+    font-size: 25px;
+    color: #efefef;
+}
+.Clases-Fotos {
+    flex: 40%;
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.Clases-Fotos img {
+    box-shadow: 3px 3px 6px #000;
+}
+
+footer {
+    position: static;
+    bottom: 0;
+    left: 0;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--dark);
+    color: white;
+    background-color: #121212;
+}
+
+.copyright-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.copyright {
+    font-size: 12px;
+    opacity: 0.7;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+.footer-menus {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 40%;
+}
+
+.footer-container {
+    height: fit-content;
+    width: 100%;
+    padding: 3rem 6rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-content-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+footer .website-logo {
+    margin-bottom: 1.2rem;
+    font-size: calc(1vw + 20px);
+}
+
+.footer-info,
+.menu-item-footer {
+    margin: 0.2rem 0;
+    opacity: 0.7;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.menu-item-footer:hover {
+    opacity: 1;
+}
+
+.menu-title {
+    font-size: var(--medium-text-font);
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 1.2rem;
+}
+
+.social-container {
+    justify-content: center;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    opacity: 80%;
+}
+
+.social-link {
+    height: 100%;
+    width: 30px;
+    background-image: url(FacebookBlanco.png);
+    background-size: 70%;
+    background-position: center;
+    margin-right: 1rem;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: #efefef;
+}
+
+.social-link:hover {
+    opacity: 0.7;
+}
+
+footer .social-link:nth-of-type(2) {
+    background-image: url(TwitterBlanco.png);
+}
+
+footer .social-link:nth-of-type(3) {
+    background-image: url(LinkedinBlanco.png);
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        top: 0%;
+        height: 50px;
+    }
+    #logo {
+        width: 30px;
+        height: 30px;
+    }
+    .columna {
+        gap: 5px;
+        font-size: 14px;
+    }
+    nav ul {
+        margin-left: 55%;
+    }
+    nav a {
+        font-size: 11px;
+    }
+    .Portada {
+        background-image: url(./Fotos/Recurso\ 2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 700px;
+    }
+    .Portada h1 {
+        font-size: 35px;
+    }
+    .Portada h3 {
+        font-size: 15px;
+    }
+    .FotosS1 {
+        width: 100%;
+        height: 250px;
+        justify-content: end;
+    }
+    .FotosS2 {
+        width: 25%;
+        height: 250px;
+        justify-content: end;
+    }
+    .Parrafos h3 {
+        font-size: 30px;
+    }
+    .Parrafos p {
+        font-size: 10px;
+    }
+    #Panel-1 {
+        background-color: #474747;
+        height: 500px;
+    }
+    .Entrena {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 35px;
+        margin-bottom: 55px;
+    }
+    #EntrenaTitulo {
+        margin-bottom: 8px;
+        width: 35%;
+        margin-left: 30%;
+        text-align: center;
+        font-size: 10px;
+        color: rgb(231, 217, 22);
+        font-size: 10px;
+        font-family: "Montserrat";
+        box-shadow: 3px 3px 6px #000;
+    }
+    .card img {
+        box-shadow: 7px 7px 7px #000;
+        margin-bottom: 5%;
+        width: 140px;
+        height: 140px;
+    }
+    .card {
+        width: 200px;
+    }
+    .c-c-h3-1 {
+        letter-spacing: 1px;
+        color: #f4cc25;
+        font-size: 12px;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        background-color: rgba(000, 000, 000, 0.1);
+        padding-left: 3%;
+        width: 72%;
+        border-radius: 6px;
+        text-shadow: 2px 2px 6px #000000;
+    }
+    .c-c-h3-2 {
+        letter-spacing: 1px;
+        color: #f4cc25;
+        font-size: 12px;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        background-color: rgba(000, 000, 000, 0.1);
+        padding-left: 3%;
+        width: 63%;
+        border-radius: 6px;
+        text-shadow: 2px 2px 6px #000000;
+    }
+    .card p {
+        width: 90%;
+        font-size: 7px;
+        text-align: justify;
+    }
+    .Box {
+        background-color: #a3a3a3;
+        padding: auto;
+        width: fit-content;
+        text-align: center;
+        font-size: 1px;
+        border-radius: 6px;
+        color: #121212;
+        text-decoration: none;
+        transition: all 0.2s ease;
+    }
+    .QueBuscamos {
+        width: 75%;
+        height: 250px;
+        margin-left: 15%;
+        margin-right: 15%;
+        background-color: rgb(138, 138, 138);
+        margin-top: 4%;
+    }
+    .TextoQuebuscamos h2 {
+        font-size: 18px;
+        color: #ffd015;
+        text-shadow: 3px 3px 6px #000;
+    }
+    .TextoQuebuscamos p {
+        font-size: 9px;
+    }
+    .QueBuscamosFotos {
+        width: 200px;
+        height: 180px;
+    }
+    .contact {
+        margin-top: 50px;
+        margin-bottom: 20px;
+        padding: 10px 30px;
+    }
+    .contact-content {
+        margin: 10px 1px;
+    }
+    .Contact-Title {
+        font-size: 10px;
+    }
+    .Contact-Info-Emoji img {
+        width: 12px;
+        height: 10px;
+    }
+    .Contact-Info-Texto {
+        font-size: 8px;
+    }
+    .SocialMedia h3 {
+        font-size: 12px;
+    }
+    .SocialMedia-Emoji img {
+        width: 15px;
+        height: 15px;
+    }
+    .SocialMedia-Emoji p {
+        font-size: 10px;
+    }
+    .form {
+        padding: 15px 30px;
+        height: 170px;
+    }
+    .contactTitle h2 {
+        font-size: 10px;
+    }
+    .inputContainer {
+        padding-top: 5%;
+        font-size: 8px;
+    }
+    .inputContainer label{
+        color: #fff;
+    }
+    .Casilleros {
+        padding: 0 1%;
+        width: 100%;
+        height: 11px;
+    }
+
+    .Productos img {
+        width: 100%;
+        height: 300px;
+    }
+    .Productos-Titulos {
+        width: 65%;
+        background-color: #474747;
+        background-image: url(./Fotos/Iconos/Recurso\ 25.png);
+        background-repeat: repeat;
+        background-size: cover;
+        height: 300px;
+    }
+    .Productos-Titulos h1 {
+        font-size: 27px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Productos-Titulos h3 {
+        padding: 8px 8px;
+        font-size: 10px;
+        margin-top: 10%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+    .Descripción {
+        display: flex;
+        flex-direction: row;
+        margin: 20px;
+    }
+    .prod {
+        width: 100%;
+    }
+    .Foto-Magnesio {
+        width: 150%;
+        height: 250px;
+    }
+    .Foto-Magnesio img {
+        object-fit: contain;
+        height: 160px;
+    }
+    .Productos-Venta-Descripción h4 {
+        font-size: 25px;
+    }
+    .Productos-Venta-Descripción p {
+        font-size: 12px;
+        padding-top: 7%;
+    }
+    .Características {
+        padding-top: 7%;
+    }
+    .Características h6 {
+        font-size: 20px;
+        color: #efefef;
+    }
+    .Características ul {
+        font-size: 11px;
+        padding-left: 3%;
+        padding-top: 7%;
+    }
+    .Características ul li{
+        padding-top: 3%;
+    }
+    .Importante {
+        font-size: 30px;
+    }
+    .Boxes {
+        background-color: #191919;
+        height: 200px;
+        margin: 20px;
+        width: 33%;
+    }
+    .Emojis {
+        margin-left: 5%;
+        margin-top: 5%;
+        padding: 10px;
+        background-color: #4f4e4d;
+        border-radius: 50%;
+        height: 50px;
+    }
+    .Boxes h3 {
+        padding-left: 8%;
+        margin-top: 7%;
+        font-size: 16px;
+        color: #f4cc25;
+        padding-top: 3%;
+    }
+    .Boxes p {
+        padding-left: 8%;
+        text-align: left;
+        width: 80%;
+        padding-top: 12%;
+        font-size: 10px;
+        color: #fff;
+    }
+    .Clases-Data {
+        padding: 20px;
+        width: 75%;
+        height: 250px;
+        margin-left: 15%;
+        margin-right: 15%;
+        background-color: #202020;
+        display: flex;
+        box-shadow: 3px 3px 6px #000;
+        margin-top: 4%;
+    }
+    .Clases-Data-Texto {
+        text-align: left;
+        margin-left: 3%;
+        margin-top: 3%;
+        display: block;
+        flex: 60%;
+    }
+    .Clases-Data-Texto h2 {
+        font-size: 20px;
+        color: #ffd015;
+        text-shadow: 3px 3px 6px #000;
+    }
+    .Clases-Data-Texto p {
+        padding-top: 8%;
+        word-spacing: 0.5rem;
+        font-size: 10px;
+        color: #efefef;
+        text-align: justify;
+    }
+    .Clases-Fotos {
+        flex: 40%;
+        padding-top: 3%;
+        padding-left: 10%;
+        padding-right: 10%;
+        height: 180px;
+    }
+    .Clases-Fotos img {
+        box-shadow: 3px 3px 6px #000;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    header {
+        top: 0%;
+        height: 50px;
+    }
+    #logo {
+        width: 25px;
+        height: 25px;
+    }
+    .columna {
+        gap: 4px;
+        font-size: 12px;
+    }
+    nav ul {
+        margin-left: 50%;
+        gap: 10px;
+    }
+    nav a {
+        font-size: 12px;
+    }
+    .Portada {
+        background-image: url(./Fotos/Recurso\ 2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px;
+    }
+    .Portada h1 {
+        font-size: 25px;
+    }
+    .Portada h3 {
+        font-size: 12px;
+    }
+    .FotosS1 {
+        width: 100%;
+        height: 250px;
+        justify-content: end;
+    }
+    .FotosS2 {
+        width: 25%;
+        height: 250px;
+        justify-content: end;
+    }
+    .Parrafos h3 {
+        font-size: 20px;
+    }
+    .Parrafos p {
+        font-size: 9px;
+    }
+    #Panel-1 {
+        background-color: #474747;
+        height: 500px;
+    }
+    .Entrena {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 35px;
+        margin-bottom: 55px;
+    }
+    #EntrenaTitulo {
+        margin-bottom: 8px;
+        width: 40%;
+        margin-left: 30%;
+        font-size: 8px;
+        font-family: "Montserrat";
+        box-shadow: 3px 3px 6px #000;
+    }
+    .card img {
+        box-shadow: 7px 7px 7px #000;
+        margin-bottom: 5%;
+        width: 140px;
+        height: 140px;
+    }
+    .card {
+        width: 200px;
+    }
+    .card-container{
+        margin-left: 10%;
+    }
+    .c-c-h3-1 {
+        font-size: 12px;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        background-color: rgba(000, 000, 000, 0.1);
+        padding-left: 3%;
+        width: 72%;
+        border-radius: 6px;
+        text-shadow: 2px 2px 6px #000000;
+    }
+    .c-c-h3-2 {
+        font-size: 12px;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        background-color: rgba(000, 000, 000, 0.1);
+        padding-left: 3%;
+        width: 63%;
+        border-radius: 6px;
+        text-shadow: 2px 2px 6px #000000;
+    }
+    .card p {
+        width: 90%;
+        font-size: 7px;
+        text-align: justify;
+    }
+    .Box {
+        background-color: #a3a3a3;
+        padding: 2px 5px;
+        width: fit-content;
+        text-align: center;
+        font-size: 2px;
+        border-radius: 6px;
+        color: #121212;
+        text-decoration: none;
+        transition: all 0.2s ease;
+    }
+    .QueBuscamos {
+        width: 75%;
+        height: 300px;
+        margin-left: 15%;
+        margin-right: 15%;
+        background-color: rgb(138, 138, 138);
+        margin-top: 4%;
+    }
+    .TextoQuebuscamos h2 {
+        font-size: 16px;
+        color: #ffd015;
+        text-shadow: 3px 3px 6px #000;
+        text-align: left;
+    }
+    .TextoQuebuscamos p {
+        font-size: 7px;
+        margin-top: 10%;
+    }
+    .QueBuscamosFotos {
+        width: 300px;
+        height: 170px;
+        margin-top: 15%;
+    }
+    .contact {
+        margin-top: 50px;
+        margin-bottom: 20px;
+        padding: 10px 30px;
+    }
+    .contact-content {
+        margin: 10px 1px;
+    }
+    .Contact-Title {
+        font-size: 10px;
+    }
+    .Contact-Info-Emoji img {
+        width: 12px;
+        height: 10px;
+    }
+    .Contact-Info-Texto {
+        font-size: 8px;
+    }
+    .SocialMedia h3 {
+        font-size: 14px;
+    }
+    .SocialMedia-Emoji img {
+        width: 15px;
+        height: 15px;
+    }
+    .SocialMedia-Emoji p {
+        font-size: 10px;
+    }
+    .form {
+        padding: 15px 30px;
+        height: 170px;
+    }
+    .inputContainer {
+        padding-top: 5%;
+        font-size: 6px;
+    }
+    .inputContainer label{
+        font-size: 10px;
+        color: #fff;
+    }
+    .Casilleros {
+        padding: 0 1%;
+        width: 100%;
+        height: 10px;
+    }
+
+
+
+
+    .Productos img {
+        width: 100%;
+        height: 300px;
+    }
+    .Productos-Titulos {
+        width: 65%;
+        background-color: #474747;
+        background-image: url(./Fotos/Iconos/Recurso\ 25.png);
+        background-repeat: repeat;
+        background-size: cover;
+        height: 300px;
+    }
+    .Productos-Titulos h1 {
+        font-size: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Productos-Titulos h3 {
+        padding: 8px 8px;
+        font-size: 9px;
+        margin-top: 10%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+    .Descripción {
+        display: flex;
+        flex-direction: row;
+        margin: 20px;
+    }
+    .prod {
+        width: 100%;
+    }
+    .Foto-Magnesio {
+        width: 150%;
+        height: 250px;
+    }
+    .Foto-Magnesio img {
+        object-fit: contain;
+        height: 160px;
+    }
+    .Productos-Venta-Descripción h4 {
+        font-size: 25px;
+    }
+    .Productos-Venta-Descripción p {
+        font-size: 12px;
+        padding-top: 7%;
+    }
+    .Características {
+        padding-top: 7%;
+    }
+    .Características h6 {
+        font-size: 20px;
+        color: #efefef;
+    }
+    .Características ul {
+        font-size: 11px;
+        padding-left: 3%;
+        padding-top: 7%;
+    }
+    .Características ul li{
+        padding-top: 3%;
+    }
+    .Importante {
+        font-size: 30px;
+    }
+    .Boxes {
+        background-color: #191919;
+        height: 230px;
+        margin: 20px;
+        width: 33%;
+    }
+    .Emojis {
+        margin-left: 8%;
+        margin-top: 8%;
+        padding: 10px;
+        background-color: #4f4e4d;
+        border-radius: 50%;
+        height: 50px;
+    }
+    .Boxes h3 {
+        padding-left: 10%;
+        margin-top: 7%;
+        font-size: 16px;
+        color: #f4cc25;
+        padding-top: 3%;
+    }
+    .Boxes p {
+        padding-left: 10%;
+        text-align: left;
+        width: 90%;
+        padding-top: 12%;
+        font-size: 11px;
+        color: #fff;
+    }
+    .Clases-Data {
+        padding: 20px;
+        width: 75%;
+        height: 320px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #202020;
+        display: flex;
+        box-shadow: 3px 3px 6px #000;
+        margin-top: 8%;
+        margin-bottom: 4%;
+    }
+    .Clases-Data-Texto h2 {
+        font-size: 18px;
+    }
+    .Clases-Data-Texto p {
+        padding-top: 8%;
+        word-spacing: 0.5rem;
+        font-size: 9px;
+    }
+    .Clases-Fotos {
+        flex: 40%;
+        margin-top: 40px;
+        padding-left: auto;
+        padding-right: auto;
+        height: 190px;
+    }
+    .copyright {
+        font-size: 12px;
+    }
+    footer .website-logo {
+        font-size: 22px;
+    }
+    .footer-info,
+    .menu-item-footer {
+        font-size: 10px;
+    }
+    .menu-title {
+        font-size: 10px;
+    }
+    .social-link {
+        font-size: 10px;
+    }
+}
